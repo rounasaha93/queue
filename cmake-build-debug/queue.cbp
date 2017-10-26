@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/rounak/Documents/GitHub/queue/CircularQueue.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="/Users/rounak/Documents/GitHub/queue/CircularQueue.h">
+			<Option target="queue"/>
+		</Unit>
 		<Unit filename="/Users/rounak/Documents/GitHub/queue/LinearList.h">
 			<Option target="queue"/>
 		</Unit>

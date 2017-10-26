@@ -123,6 +123,33 @@ queue/fast:
 	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
 .PHONY : queue/fast
 
+CircularQueue.o: CircularQueue.cpp.o
+
+.PHONY : CircularQueue.o
+
+# target to build an object file
+CircularQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/CircularQueue.cpp.o
+.PHONY : CircularQueue.cpp.o
+
+CircularQueue.i: CircularQueue.cpp.i
+
+.PHONY : CircularQueue.i
+
+# target to preprocess a source file
+CircularQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/CircularQueue.cpp.i
+.PHONY : CircularQueue.cpp.i
+
+CircularQueue.s: CircularQueue.cpp.s
+
+.PHONY : CircularQueue.s
+
+# target to generate assembly for a file
+CircularQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/CircularQueue.cpp.s
+.PHONY : CircularQueue.cpp.s
+
 QueueAsBaseClass.o: QueueAsBaseClass.cpp.o
 
 .PHONY : QueueAsBaseClass.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... queue"
+	@echo "... CircularQueue.o"
+	@echo "... CircularQueue.i"
+	@echo "... CircularQueue.s"
 	@echo "... QueueAsBaseClass.o"
 	@echo "... QueueAsBaseClass.i"
 	@echo "... QueueAsBaseClass.s"

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/queue.dir/QueueByInheritance.cpp.o"
   "CMakeFiles/queue.dir/QueueAsBaseClass.cpp.o"
+  "CMakeFiles/queue.dir/CircularQueue.cpp.o"
   "queue.pdb"
   "queue"
 )

@@ -3,5 +3,5 @@ project(queue)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES LinearList.h QueueByInheritance.cpp QueueByInheritance.h QueueAsBaseClass.cpp QueueAsBaseClass.h)
+set(SOURCE_FILES LinearList.h QueueByInheritance.cpp QueueByInheritance.h QueueAsBaseClass.cpp QueueAsBaseClass.h CircularQueue.cpp CircularQueue.h)
 add_executable(queue ${SOURCE_FILES})
