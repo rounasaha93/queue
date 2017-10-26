@@ -123,6 +123,33 @@ queue/fast:
 	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
 .PHONY : queue/fast
 
+QueueAsBaseClass.o: QueueAsBaseClass.cpp.o
+
+.PHONY : QueueAsBaseClass.o
+
+# target to build an object file
+QueueAsBaseClass.cpp.o:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/QueueAsBaseClass.cpp.o
+.PHONY : QueueAsBaseClass.cpp.o
+
+QueueAsBaseClass.i: QueueAsBaseClass.cpp.i
+
+.PHONY : QueueAsBaseClass.i
+
+# target to preprocess a source file
+QueueAsBaseClass.cpp.i:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/QueueAsBaseClass.cpp.i
+.PHONY : QueueAsBaseClass.cpp.i
+
+QueueAsBaseClass.s: QueueAsBaseClass.cpp.s
+
+.PHONY : QueueAsBaseClass.s
+
+# target to generate assembly for a file
+QueueAsBaseClass.cpp.s:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/QueueAsBaseClass.cpp.s
+.PHONY : QueueAsBaseClass.cpp.s
+
 QueueByInheritance.o: QueueByInheritance.cpp.o
 
 .PHONY : QueueByInheritance.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... queue"
+	@echo "... QueueAsBaseClass.o"
+	@echo "... QueueAsBaseClass.i"
+	@echo "... QueueAsBaseClass.s"
 	@echo "... QueueByInheritance.o"
 	@echo "... QueueByInheritance.i"
 	@echo "... QueueByInheritance.s"
