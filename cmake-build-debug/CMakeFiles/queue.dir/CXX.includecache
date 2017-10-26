@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rounak/Documents/GitHub/queue/LinearList.h
+iostream
+-
+
+/Users/rounak/Documents/GitHub/queue/QueueByInheritance.cpp
+QueueByInheritance.h
+/Users/rounak/Documents/GitHub/queue/QueueByInheritance.h
+
+/Users/rounak/Documents/GitHub/queue/QueueByInheritance.h
+LinearList.h
+/Users/rounak/Documents/GitHub/queue/LinearList.h
+
